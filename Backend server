@@ -1,0 +1,65 @@
+# Delivery App Backend
+
+## Overview
+This project is a backend system for a delivery application that manages users, orders, and delivery tracking. It provides RESTful APIs for handling authentication, order management, and delivery status updates.
+
+## Features
+- User registration and login
+- JWT-based authentication
+- Order creation and management
+- Delivery status tracking
+- Secure REST API endpoints
+
+## Tech Stack
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
+- REST APIs
+
+## Project Structure
+
+delivery-app-backend
+│
+├── controllers
+├── routes
+├── models
+├── middleware
+├── config
+└── server.js
+
+## Installation
+
+1. Clone the repository
+
+git clone https://github.com/yourusername/delivery-app-backend.git
+
+2. Navigate to project folder
+
+cd delivery-app-backend
+
+3. Install dependencies
+
+npm install
+
+4. Run the server
+
+npm start
+
+## API Endpoints
+
+| Method | Endpoint | Description |
+|------|------|------|
+| POST | /api/auth/register | Register user |
+| POST | /api/auth/login | Login user |
+| POST | /api/orders | Create order |
+| GET | /api/orders | Get all orders |
+| PUT | /api/orders/:id | Update order status |
+
+## Future Improvements
+- Payment integration
+- Real-time delivery tracking
+- Notification system
+
+## Author
+Jyotirmayee Sahoo
